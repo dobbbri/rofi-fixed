@@ -94,6 +94,19 @@ $ ./setup.sh
 [*] Successfully Installed.
 ```
 
+- add in bash shell to powermenu works:
+```
+
+export DESKTOP_SESSION=openbox
+export DESKTOP_SESSION=bspwm
+export DESKTOP_SESSION=i3
+export DESKTOP_SESSION=plasma
+export DESKTOP_SESSION=dk
+export DESKTOP_SESSION=dwm
+
+```
+
+
 - That's it, These themes are now installed on your system.
 
 > **Note** : These themes are like an ecosystem, everything here is connected with each other in some way. So... before modifying anything by your own, make sure you know what you doing.
