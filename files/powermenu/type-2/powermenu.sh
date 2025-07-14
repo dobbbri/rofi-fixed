@@ -79,6 +79,10 @@ run_cmd() {
 				i3-msg exit
 			elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
 				qdbus org.kde.ksmserver /KSMServer logout 0 0 0
+			elif [[ "$DESKTOP_SESSION" == 'dk' ]]; then
+				dkcmd exit
+			elif [[ "$DESKTOP_SESSION" == 'dwm' ]]; then
+        pkill dwm
 			fi
 		fi
 	else
