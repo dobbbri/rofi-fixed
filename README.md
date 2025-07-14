@@ -94,7 +94,7 @@ $ ./setup.sh
 [*] Successfully Installed.
 ```
 
-- add in bash shell to powermenu works:
+- Add one of the lines below to your bash script, depending on the window manager you use, so that the power menu works correctly. (Ex: if you use *dwm*, add only the *export DISPLAY_SESSION=dwm* line):
 ```
 
 export DESKTOP_SESSION=openbox
